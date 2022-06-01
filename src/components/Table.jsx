@@ -89,7 +89,7 @@ export const Table = (props) => {
   };
 
   return (
-    <div style={{ width: "70%" }}>
+    <div style={{ width: "70%" }} className="table">
       <select name="" id="" onChange={(e) => setfilter(e.target.value)}>
         <option value="">Filter By Department</option>
         <option value="Math">Mathematics</option>
@@ -135,7 +135,7 @@ export const Table = (props) => {
                   ></i>
                 </td>
                 <td>
-                  <img src={item.Profile} alt="" />
+                  <img src={item.Profile} style={{width:"100%",height:"60px"}} alt="" />
                 </td>
                 <td>{item.Name}</td>
                 <td>{item.Age}</td>

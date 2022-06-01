@@ -1,14 +1,64 @@
 {
   "posts": [
     {
-      "Name": "rohann",
+      "Name": "Rohaan",
       "Age": "25",
       "Address": "A-nagar",
-      "Depar": "Math",
+      "Depar": "",
       "Salary": "50000",
-      "MaritalState": true,
+      "MaritalState": false,
       "Profile": "https://source.unsplash.com/user/c_v_r/100x100",
-      "id": 1
+      "id": 2
+    },
+    {
+      "Name": "Rohaan",
+      "Age": "25",
+      "Address": "A-nagar",
+      "Depar": "",
+      "Salary": "50000",
+      "MaritalState": false,
+      "Profile": "https://source.unsplash.com/user/c_v_r/100x100",
+      "id": 3
+    },
+    {
+      "Name": "Rohaan",
+      "Age": "25",
+      "Address": "A-nagar",
+      "Depar": "",
+      "Salary": "50000",
+      "MaritalState": false,
+      "Profile": "https://source.unsplash.com/user/c_v_r/100x100",
+      "id": 4
+    },
+    {
+      "Name": "Rohaan",
+      "Age": "25",
+      "Address": "A-nagar",
+      "Depar": "",
+      "Salary": "50000",
+      "MaritalState": false,
+      "Profile": "https://source.unsplash.com/user/c_v_r/100x100",
+      "id": 5
+    },
+    {
+      "Name": "Rohaan",
+      "Age": "25",
+      "Address": "A-nagar",
+      "Depar": "",
+      "Salary": "50000",
+      "MaritalState": false,
+      "Profile": "https://source.unsplash.com/user/c_v_r/100x100",
+      "id": 6
+    },
+    {
+      "Name": "Rohaan",
+      "Age": "25",
+      "Address": "A-nagar",
+      "Depar": "",
+      "Salary": "50000",
+      "MaritalState": false,
+      "Profile": "https://source.unsplash.com/user/c_v_r/100x100",
+      "id": 7
     }
   ]
 }

@@ -16,7 +16,7 @@ export const Form = (props) => {
 
   const inputhandle=(e)=>{
     // console.log(e)
-    let {name, value} = e.target;
+    let {name, value, checked} = e.target;
     setuserdata({
       ...userdata, 
       [name] : value,
@@ -24,7 +24,7 @@ export const Form = (props) => {
     if(name === 'MaritalState'){
       setuserdata({
         ...userdata, 
-        [name] : (value==='on'),
+        [name] : (checked),
       });
     }
 

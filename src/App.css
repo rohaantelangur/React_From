@@ -1,6 +1,6 @@
 body{
-background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,70,0.9668242296918768) 100%);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .App {
   /* text-align: center; */
@@ -36,6 +36,12 @@ width: 100%;
   border-radius: 10px;
 }
 .left input, select, button {
-  background: #b6528d;
-  border: 1px solid red;
+  background: rgb(238, 209, 221);
+  border: 1px solid rgb(243, 210, 210);
+  outline: none;
+}
+.table{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+
 }
