@@ -3,82 +3,12 @@
     {
       "Name": "rohann",
       "Age": "25",
-      "Address": "Ahmednagar",
+      "Address": "A-nagar",
       "Depar": "Math",
-      "Salary": "200",
+      "Salary": "50000",
       "MaritalState": true,
-      "Profile": "https://source.unsplash.com/user/c_v_r/50x50",
+      "Profile": "https://source.unsplash.com/user/c_v_r/100x100",
       "id": 1
-    },
-    {
-      "Name": "Rohaan T",
-      "Age": "24",
-      "Address": "A-nagar",
-      "Depar": "Phy",
-      "Salary": "50000",
-      "MaritalState": true,
-      "Profile": "https://source.unsplash.com/user/c_v_r/50x50",
-      "id": 2
-    },
-    {
-      "Name": "",
-      "Age": "",
-      "Address": "",
-      "Depar": "",
-      "Salary": "",
-      "MaritalState": false,
-      "Profile": "https://source.unsplash.com/user/c_v_r/50x50",
-      "id": 3
-    },
-    {
-      "Name": "rohann",
-      "Age": "25",
-      "Address": "Ahmednagar",
-      "Depar": "Math",
-      "Salary": "200",
-      "MaritalState": true,
-      "Profile": "https://source.unsplash.com/user/c_v_r/50x50",
-      "id": 4
-    },
-    {
-      "Name": "Rohaan T",
-      "Age": "24",
-      "Address": "A-nagar",
-      "Depar": "Phy",
-      "Salary": "50000",
-      "MaritalState": true,
-      "Profile": "https://source.unsplash.com/user/c_v_r/50x50",
-      "id": 5
-    },
-    {
-      "Name": "rohann",
-      "Age": "25",
-      "Address": "Ahmednagar",
-      "Depar": "Math",
-      "Salary": "200",
-      "MaritalState": true,
-      "Profile": "https://source.unsplash.com/user/c_v_r/50x50",
-      "id": 6
-    },
-    {
-      "Name": "Rohaan T",
-      "Age": "24",
-      "Address": "A-nagar",
-      "Depar": "Phy",
-      "Salary": "50000",
-      "MaritalState": true,
-      "Profile": "https://source.unsplash.com/user/c_v_r/50x50",
-      "id": 7
-    },
-    {
-      "Name": "",
-      "Age": "",
-      "Address": "",
-      "Depar": "",
-      "Salary": "",
-      "MaritalState": false,
-      "Profile": "",
-      "id": 8
     }
   ]
 }
