@@ -83,8 +83,7 @@ React.useEffect(() => {
   
 
   return (
-    <div>
-    {/* <div>Table</div> */}
+    <div style={{width:"70%"}}>
       <select name="" id="" onChange={(e)=>setfilter(e.target.value)}>
         <option value="">Filter By Department</option>
         <option value="Math">Mathematics</option>

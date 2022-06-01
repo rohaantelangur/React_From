@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <Form className="left" data={data} setdata={setdata} setobj={setobj}/>
-      <Table className="right" data={data} setdata={setdata} key={Date.now()}/>
+      <Form className="left" style={{width:"25%"}} data={data} setdata={setdata} setobj={setobj}/>
+      <Table className="right" style={{width:"10%"}} data={data} setdata={setdata} key={Date.now()}/>
     </div>
   );
 }

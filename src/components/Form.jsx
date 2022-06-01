@@ -50,7 +50,7 @@ export const Form = (props) => {
     }
 
   return (
-    <div>
+    <div className="left">
       <form action="" className="form" onSubmit={savedata}>
         <label htmlFor="">Name</label>
         <input type="text" name="Name" onChange={inputhandle} />

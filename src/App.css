@@ -1,11 +1,17 @@
+body{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,70,0.9668242296918768) 100%);
+}
 .App {
   /* text-align: center; */
   display: flex;
   justify-content: space-around;
+  /* background-color: aqua; */
 }
 .App> div{
-  width: 45%;
-  border: 1px solid red;
+  margin-top: 50px;
+  padding: 20px;
+  /* border: 1px solid red; */
 }
 .form input{
 margin-bottom: 10px;
@@ -26,9 +32,11 @@ width: 100%;
   
 }
 .left{
-  width: 25%;
-
+  /* border: 1px solid green; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
 }
-.right{
-  width: 75%;
+.left input, select, button {
+  background: #b6528d;
+  border: 1px solid red;
 }
