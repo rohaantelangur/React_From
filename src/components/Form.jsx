@@ -75,7 +75,7 @@ export const Form = (props) => {
         <input type="text" name="Salary" onChange={inputhandle} />
 
         <label htmlFor="">Marital state</label>
-        <input type="checkbox" className="checkboxui" name="MaritalState" onChange={inputhandle}/>
+        <input type="checkbox" className="checkboxui"  name="MaritalState" onChange={inputhandle}/>
 
         <label htmlFor="">Profile Picture Link</label>
         <input type="text" name="Profile" onChange={inputhandle}/>

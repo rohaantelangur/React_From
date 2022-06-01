@@ -98,7 +98,7 @@ export const Table = (props) => {
         <option value="Che">Chemistry</option>
       </select>
 
-      <select name="" id="" onChange={(e) => setsort(e.target.value)}>
+      <select style={{float:"right" }} name="" id="" onChange={(e) => setsort(e.target.value)}>
         <option value="">Sort</option>
         <option value="ascending">Ascending</option>
         <option value="descending">Descending</option>
