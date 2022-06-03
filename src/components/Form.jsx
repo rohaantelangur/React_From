@@ -36,7 +36,7 @@ export const Form = (props) => {
       ...userdata
     })
     .then((response)=> {
-    console.log(response);
+    // console.log(response);
   })
   }
 

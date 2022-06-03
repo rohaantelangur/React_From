@@ -1,21 +1,21 @@
 {
   "posts": [
     {
-      "Name": "Rohaan Telangur",
+      "Name": "rohann",
       "Age": "24",
-      "Address": "Ahmednagar",
+      "Address": "A-nagar",
       "Depar": "Math",
       "Salary": "50000",
-      "MaritalState": false,
+      "MaritalState": true,
       "Profile": "",
       "id": 1
     },
     {
-      "Name": "Rohaan Telangur",
-      "Age": "24",
+      "Name": "aaaaa",
+      "Age": "25",
       "Address": "Ahmednagar",
-      "Depar": "Math",
-      "Salary": "50000",
+      "Depar": "",
+      "Salary": "200",
       "MaritalState": true,
       "Profile": "",
       "id": 2

@@ -17,7 +17,7 @@ export const Table = (props) => {
     axios
       .get(`http://localhost:8080/posts?_page=${page}&_limit=5`)
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         setuserdata(response.data);
         setfilterdata(response.data);
       });
@@ -33,7 +33,7 @@ export const Table = (props) => {
         // console.log(userdata)
         // setuserdata(a);
         setfilterdata(a);
-        console.log(userdata, a);
+        // console.log(userdata, a);
         break;
       }
 
@@ -41,21 +41,21 @@ export const Table = (props) => {
         const a = userdata.filter((item) => item.Depar == "Bio");
         // setuserdata(a);
         setfilterdata(a);
-        console.log(a);
+        // console.log(a);
         break;
       }
       case "Phy": {
         const a = userdata.filter((item) => item.Depar == "Phy");
         // setuserdata(a);
         setfilterdata(a);
-        console.log(a);
+        // console.log(a);
         break;
       }
       case "Che": {
         const a = userdata.filter((item) => item.Depar == "Che");
         // setuserdata(a);
         setfilterdata(a);
-        console.log(a);
+        // console.log(a);
         break;
       }
       default:
@@ -70,12 +70,12 @@ export const Table = (props) => {
   React.useEffect(() => {
     if (sort === "ascending") {
       userdata.sort((a, b) => a.Salary - b.Salary);
-      console.log(userdata);
+      // console.log(userdata);
       setuserdata(userdata);
       setreload(Date.now());
     } else if (sort === "descending") {
       userdata.sort((a, b) => b.Salary - a.Salary);
-      console.log(userdata);
+      // console.log(userdata);
       setuserdata(userdata);
       setreload(Date.now());
     }
@@ -83,7 +83,7 @@ export const Table = (props) => {
 
   const removeitem = (id) => {
     axios.delete(`http://localhost:8080/posts/${id}`).then((r) => {
-      console.log(r);
+      // console.log(r);
     });
     getdata();
   };
@@ -119,13 +119,13 @@ export const Table = (props) => {
         <tbody>
           {filterdata.map((item) => {
             return (
-              <tr>
+              <tr key={item.id}>
                 <td>
                   <i
                     onClick={() => {
                       removeitem(item.id);
                     }}
-                    class="bi bi-trash3-fill"
+                    className="bi bi-trash3-fill"
                     style={{
                       fontSize: "25px",
                       display: "flex",

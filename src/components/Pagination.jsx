@@ -4,7 +4,7 @@ export const Pagination = (props) => {
   const [pageup, setpageup] = React.useState(1);
   return (
     <div
-      class="btn-group d-flex justify-content-center"
+      className="btn-group d-flex justify-content-center"
       role="group"
       aria-label="Basic outlined example"
     >
@@ -15,11 +15,11 @@ export const Pagination = (props) => {
               props.setpage(pageup - 1);
               setpageup(pageup - 1)
         }}}
-        class="btn btn-outline-primary"
+        className="btn btn-outline-primary"
       >
         {"<"}
       </button>
-      <button type="button" disabled={true} class="btn btn-outline-primary">
+      <button type="button" disabled={true} className="btn btn-outline-primary">
         {props.page}
       </button>
       <button
@@ -28,7 +28,7 @@ export const Pagination = (props) => {
           props.setpage(pageup + 1);
           setpageup(pageup + 1)
         }}
-        class="btn btn-outline-primary"
+        className="btn btn-outline-primary"
       >
         {">"}
       </button>
